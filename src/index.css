@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
 
 
 html,
@@ -17,7 +17,11 @@ body {
   --font-georama: "Georama", sans-serif;
   --font-roboto: "Roboto Mono", monospace;
   --breakpoint-3xl: 1920px;
+  --font-family-sans: "Georama", sans-serif;
 }
+
+
+
 
 @utility flex-center {
   @apply flex items-center justify-center;
@@ -394,3 +398,8 @@ body {
     }
   }
 }
+
+
+
+
+
